@@ -43,11 +43,11 @@
                     @csrf
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" class="form-control" required>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label">Password</label>
-                        <input type="password" id="password" name="password" class="form-control" required>
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required>
                     </div>
                     {{-- <div class="mb-3 form-check">
                         <input type="checkbox" id="remember" name="remember" class="form-check-input">
