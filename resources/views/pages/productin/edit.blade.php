@@ -54,7 +54,7 @@
                     <div class="col-md-8">
                         <div class="form-group">
                             <label>Product</label>
-                            <select class="form-control select2" id="product_id" name="product_id">
+                            <select class="form-control select2" id="product_id" name="product_id" style="width: 100%">
                                 <option value="" selected>Choose Product</option>
                                 @foreach ($products as $product)
                                     <option value="{{ $product->id }}">{{ $product->name }}</option>

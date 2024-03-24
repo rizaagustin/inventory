@@ -28,7 +28,7 @@ class CustomerRequest extends FormRequest
         $data = [
             'address' => 'required|max:255',
             'email' => 'required|email|max:100',
-            'phone' => 'required|integer'
+            'phone' => 'required|numeric',
         ];
 
         if (request()->isMethod('PUT')) {
