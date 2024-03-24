@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\ProductOut;
 use App\Models\Customer;
-use App\Models\product;
+use App\Models\Product;
 use App\Models\ProductIn;
 use Illuminate\Support\Facades\Validator;
 use App\Models\ProductOutDetail;

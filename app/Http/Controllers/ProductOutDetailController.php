@@ -7,6 +7,7 @@ use App\Models\ProductOutDetail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\DB;
 use App\Models\Product;
+
 class ProductOutDetailController extends Controller
 {
     /**
@@ -151,7 +152,7 @@ class ProductOutDetailController extends Controller
             if (!$productoutdetail) {
                 return response()->json([
                     'success' => false,
-                    'message' => 'Detail Produk tidak ditemukan.',
+                    'message' => 'Detail Product Not Found.',
                 ]);
             }
 
@@ -167,14 +168,14 @@ class ProductOutDetailController extends Controller
             DB::commit();
             return response()->json([
                 'success' => true,
-                'message' => 'Data Berhasil Dihapus!',
+                'message' => 'Data Has Been Deleted!',
             ]); 
 
         } catch (\Exception $e) {
             DB::rollback();
             return response()->json([
                 'success' => false,
-                'message' => 'Terjadi kesalahan saat menghapus data.',
+                'message' => 'Data Has Not Been Deleted.',
                 'error' => $e->getMessage(),
             ],500);
         }

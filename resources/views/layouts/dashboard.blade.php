@@ -30,6 +30,8 @@
     .main-header .navbar {
         background-color: #605ca8;
     }
+
+    
   </style>
 </head>
 <body class="sidebar-mini skin-purple-light sidebar-open">
