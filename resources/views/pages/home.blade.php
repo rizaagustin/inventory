@@ -77,7 +77,7 @@
                   <td>{{ $i + 1 }}</td>
                   <td>{{ $productindetail->productin->date }}</td>
                   <td>{{ $productindetail->product->name }}</td>
-                  <td><span class="badge bg-blue">{{ $productindetail->qty }}</span></td>
+                  <td class="text-right"><span class="badge bg-blue">{{ $productindetail->qty }}</span></td>
                 </tr>
                 @endforeach
               </tbody>
@@ -104,7 +104,7 @@
                   <td>{{ $i + 1 }}</td>
                   <td>{{ $productoutdetail->productout->date }}</td>
                   <td>{{ $productoutdetail->product->name }}</td>
-                  <td><span class="badge bg-red">{{ $productoutdetail->qty }}</span></td>
+                  <td class="text-right"><span class="badge bg-red">{{ $productoutdetail->qty }}</span></td>
                 </tr>                    
                 @endforeach
               </tbody>
