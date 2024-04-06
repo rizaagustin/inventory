@@ -31,10 +31,13 @@
         background-color: #605ca8;
     }
 
+    .text-purple {
+      color: #605ca8;
+    }
     
   </style>
 </head>
-<body class="sidebar-mini skin-purple-light sidebar-open">
+<body class="hold-transition skin-purple-light sidebar-mini">
 <input type="hidden" id="base_url" value="{{ url('/') }}" />
 <div class="wrapper">
 
