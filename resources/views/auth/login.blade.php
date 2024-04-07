@@ -33,6 +33,11 @@
               </div>
                   <button type="submit" class="btn btn-primary w-100">Masuk </button>
             </form>
+            <div class="alert alert-primary mt-3" role="alert">
+              <div>*akun demo</div>
+              <div>email: admin@gmail.com</div>
+              <div>password: password</div>
+            </div>
           </div>
 
           <div class="col-md-6 px-0 d-none d-sm-block text-center">
